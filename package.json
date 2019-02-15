@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-mern",
+  "version": "1.0.0",
+  "description": "portfolio built with M.E.R.N stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Adam Chapman",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.12",
+    "morgan": "^1.9.1",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
